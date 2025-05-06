@@ -19,7 +19,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 model = RandomForestClassifier()
 model.fit(X_train, y_train)
 
-st.title("🌾 AI-Powered Crop Recommendation System")
+st.title(" AI-Powered Crop Suggestion System 🌾")
 
 st.write("Enter the following soil and climate parameters:")
 
